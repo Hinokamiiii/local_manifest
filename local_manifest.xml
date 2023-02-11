@@ -10,8 +10,6 @@
 
           clone-depth="1" /> 
 
-    
-
     <!-- Sync trees -->
 
     <project path="device/xiaomi/onclite" name="ExodusOS/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
@@ -22,13 +20,9 @@
 
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="Prashant-1695/platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="typhoon" clone-depth="1" />
 
-        
-
      <!-- HALs -->
 
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-19.1" />
-
-     
 
      <!-- Extra -->
 
@@ -103,8 +97,6 @@
     <remove-project name="LineageOS/android_bionic" />
 
     <project path="bionic" name="ExodusOS/android_bionic" remote="all" revision="lineage-19.1" />
-
-  
 
 </manifest>
 
