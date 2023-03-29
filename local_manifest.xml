@@ -59,6 +59,6 @@
     <project path="packages/apps/SettingsIntelligence" name="ExodusOS/android_packages_apps_SettingsIntelligence" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_bionic" />
     <project path="bionic" name="ExodusOS/android_bionic" remote="all" revision="lineage-19.1" />
-
+    <remove-project name="LineageOS/android" /> <project path="android" name="Hinokamiiii/android" remote="all" revision="lineage-19.1" />
 </manifest>
 
